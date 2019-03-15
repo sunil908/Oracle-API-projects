@@ -30,6 +30,7 @@ BEGIN
      
         
             EXECUTE IMMEDIATE 'CREATE GLOBAL TEMPORARY TABLE  relmap ( 
+				ROW_ID NUMBER GENERATED ALWAYS AS IDENTITY,
 				FromRouteNodeID INT, 
 				FromNodeName VARCHAR(200), 
 				ToRouteNodeID INT,
