@@ -156,8 +156,8 @@ DECLARE
         
         SAVEPOINT sp_archive;
 
---        EXECUTE IMMEDIATE  sqlinsert;
---        EXECUTE IMMEDIATE  sqldelete;
+       EXECUTE IMMEDIATE  sqlinsert;
+       EXECUTE IMMEDIATE  sqldelete;
 
         DBMS_OUTPUT.PUT_LINE(sqlselquery);
         DBMS_OUTPUT.PUT_LINE(sqlinsert);
