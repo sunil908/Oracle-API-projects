@@ -1,0 +1,7 @@
+REM INSERTING into GEFA0728.REL_EX
+SET DEFINE OFF;
+Insert into GEFA0728.REL_EX (REFERENCEID,TABLENAME,COLUMNNAME,REFERREDTABLENAME,REFERREDCOLUMNNAME,TOPOLOGYORDERNUM) values (23,'customers','customerid','orders','customerid',2);
+Insert into GEFA0728.REL_EX (REFERENCEID,TABLENAME,COLUMNNAME,REFERREDTABLENAME,REFERREDCOLUMNNAME,TOPOLOGYORDERNUM) values (24,'orders','orderid','orderdetails','orderid',1);
+--------------------------------------------------------
+--  Constraints for Table REL_EX
+--------------------------------------------------------
